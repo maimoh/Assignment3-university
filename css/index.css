@@ -1,0 +1,11 @@
+body { font-family: Georgia, serif; background: #f3f5f4; margin: 0; padding: 2rem 1rem; color: #1d2b27; }
+form { max-width: 420px; margin: 0 auto; background: #fff; padding: 1.5rem 1.75rem; border: 1px solid #c9d3cf; border-radius: 6px; }
+h1 { margin-top: 0; font-size: 1.5rem; }
+.field { margin-bottom: 1rem; }
+label { display: block; margin-bottom: .25rem; font-weight: bold; }
+input { width: 100%; box-sizing: border-box; padding: .5rem; font-size: 1rem; border: 1px solid #8a9a94; border-radius: 4px; }
+input:focus-visible, button:focus-visible { outline: 3px solid #2f7d6b; outline-offset: 1px; }
+input.invalid { border-color: #b3261e; }
+.error { color: #b3261e; font-size: .875rem; min-height: 1.1em; margin: .25rem 0 0; }
+button { padding: .6rem 1.2rem; font-size: 1rem; background: #1f5f50; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+#success { color: #1f5f50; font-weight: bold; margin-top: 1rem; }

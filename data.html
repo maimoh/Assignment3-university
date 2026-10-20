@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>People Table</title>
+<link rel="stylesheet" href="css/data.css">
+</head>
+<body>
+    <a href="index.html">home</a>
+<main>
+  <h1>People</h1>
+
+  <div class="controls">
+    <input type="search" id="search" placeholder="Search by name, age or city" aria-label="Search people">
+    <button type="button" id="sortName">Sort by name</button>
+    <button type="button" id="sortAge">Sort by age</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Name</th><th>Age</th><th>City</th></tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  <p id="empty" hidden>No matching people.</p>
+</main>
+
+<script src="js/data.jsgit init"></script>
+</body>
+</html>
